@@ -1,0 +1,55 @@
+{
+  "name": "nest-swagger-webpack-windwos-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress",
+    "lint": "eslint src/**/*.ts"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuestionAndAnswer/PG.git"
+  },
+  "keywords": [],
+  "author": "Artsiom Miksiuk <forbiddentool@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuestionAndAnswer/PG/issues"
+  },
+  "homepage": "https://github.com/QuestionAndAnswer/PG#readme",
+  "devDependencies": {
+    "@types/arrify": "^2.0.1",
+    "@types/node": "^14.0.5",
+    "@types/ramda": "^0.27.6",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.1.0",
+    "eslint-config-google": "^0.14.0",
+    "ts-loader": "^7.0.5",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.0.13",
+    "@nestjs/core": "^7.0.13",
+    "@nestjs/platform-express": "^7.0.13",
+    "@nestjs/swagger": "^4.5.7",
+    "arrify": "^2.0.1",
+    "class-transformer": "^0.2.3",
+    "class-transformer-validator": "^0.8.0",
+    "class-validator": "^0.12.2",
+    "pg": "^8.2.1",
+    "ramda": "^0.27.0",
+    "ramda-adjunct": "^2.27.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.5",
+    "swagger-ui-express": "^4.1.4",
+    "typeorm": "^0.2.25",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
